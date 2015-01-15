@@ -1,0 +1,103 @@
+body,h1,h2,li,ul,div,p{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+
+body{
+	text-align:center;
+	background:#000 url("images/skygrad.jpg") ;
+	background-size: cover;
+	overflow:hidden;
+}
+
+
+
+.wava.blue{
+	 background: transparent   repeat-x;
+	
+	
+	position:absolute;
+	-ms-transform: translate(-190px,370px); /* IE 9 */
+   	-webkit-transform: translate(-190px,370px); /* Chrome, Safari, Opera */
+    transform: translate(-190px,370px);
+	
+}
+.wava.purple{
+	 background: transparent repeat-x;
+
+	
+	position:absolute;
+	-ms-transform: translate(-40px,365px); /* IE 9 */
+   	-webkit-transform: translate(-40px,365px); /* Chrome, Safari, Opera */
+    transform: translate(-40px,365px);
+	
+}
+/* keyframes for animation;  simple 0 to 360 */
+@-webkit-keyframes spin{
+    0%   {-webkit-transform: rotate(   0deg);}
+      
+    
+    100% {-webkit-transform: rotate(360deg);}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    0%   {-webkit-transform: rotate(   0deg);}
+   
+    100% {-webkit-transform: rotate(360deg);}
+}
+
+
+#sun{
+	height:200px;
+	width:200px;
+	position:relative;
+	left:-520px;
+	
+	-webkit-animation: spin 10s infinite linear; /* Chrome, Safari, Opera */
+    animation: spin 10s infinite;
+
+}
+
+#cloud-2{
+	position:relative;
+	-ms-transform: translate(600px,-200px); /* IE 9 */
+   	-webkit-transform: translate(600px,-200px); /* Chrome, Safari, Opera */
+    transform: translate(600px,-200px);
+	
+
+}
+#cloud-3{
+	position:relative;
+	-ms-transform: translate(10px,65px); /* IE 9 */
+   	-webkit-transform: translate(10px,65px); /* Chrome, Safari, Opera */
+    transform: translate(10px,65px);
+
+}
+#cloud-4{
+	position:relative;
+	-ms-transform: translate(940px,65px); /* IE 9 */
+   	-webkit-transform: translate(940px,65px); /* Chrome, Safari, Opera */
+    transform: translate(940px,65px);
+
+}
+#cloud-5{
+	position:relative;
+	-ms-transform: translate(1240px,-165px); /* IE 9 */
+   	-webkit-transform: translate(1240px,-165px); /* Chrome, Safari, Opera */
+    transform: translate(1240px,-165px);
+
+}
+#cloud-6{
+	-ms-transform: translate(440px,165px); /* IE 9 */
+   	-webkit-transform: translate(440px,165px); /* Chrome, Safari, Opera */
+    transform: translate(440px,165px);
+
+}
+#boat-1{
+	-ms-transform: translate(980px,-90px); /* IE 9 */
+   	-webkit-transform: translate(980px,-90px); /* Chrome, Safari, Opera */
+    transform: translate(980px,-90px);
+
+}

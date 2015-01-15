@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lan ="en">
+<head>
+<meta charset="UTF-8">
+ 
+<link href="sky.css" rel=stylesheet />
+
+
+
+<script>
+$(document).ready(function(){
+	
+	});
+</script>
+ 
+ 
+</head>
+<body>
+
+<img src="images/sun.png"  id="sun" />
+ 
+
+ <div id="bg">
+ 	<div id="container1">
+ 		<ul id="scene">
+ 			<li  class="layer" data-depth="0.10" ><div  ><img src="images/cloud.png" width="200px" height="150px" id="cloud-1"></div></li>
+ 			<li  class="layer" data-depth="0.20" ><div  ><img src="images/cloud.png" width="200px" height="250px" id="cloud-2"/></div></li>
+ 			<li  class="layer" data-depth="0.30" ><div  ><img src="images/cloud.png"   width="200px" height="250px" id="cloud-3"/></div></li>
+ 			<li  class="layer" data-depth="0.40" ><div  ><img src="images/cloud.png"   width="200px" height="150px" id="cloud-4"/></div></li>
+ 			<li  class="layer" data-depth="0.20" ><div  ><img src="images/cloud.png"   width="200px" height="250px" id="cloud-5"/></div></li>
+ 			<li  class="layer" data-depth="0.50" ><div  ><img src="images/cloud.png"   width="200px" height="150px" id="cloud-6"/></div></li>
+ 			<li  class="layer" data-depth="0.50" ><div  ><img src="images/boat.png"   width="450px" height="550px" id="boat-1"/></div></li>
+ 			
+ 			
+ 			
+
+ 			<li  class="layer" data-depth="0.10" id="wave-1"><div class="wava purple 1"  ><img src="images/blue.png" width="1400" height="320" /></div></li>
+ 			<li  class="layer" data-depth="0.30" id="wave-2"><div class="wava blue 2" ><img src="images/blue.png" width="1700" height="320" /></div></li>
+ 			<li  class="layer" data-depth="0.50" id="wave-3"><div class="wava purple 3" ><img src="images/purple.png"  width="2000" height="330" /></div></li>
+ 			<li  class="layer" data-depth="0.60" id="wave-4"><div class="wava blue 4" ><img src="images/blue.png" width="2300" height="320" /></div></li>
+ 			<li  class="layer" data-depth="0.70" id="wave-5"><div class="wava purple 5" ><img src="images/purple.png" width="2500"  height="320" /></div></li>
+ 			<li  class="layer" data-depth="0.80" id="wave-6"><div class="wava blue 6" ><img src="images/blue.png" width="1400" height="330" /></div></li>
+ 			<li  class="layer" data-depth="0.90" id="wave-7"><div class="wava purple 7" ><img src="images/purple.png" width="2000" height="320" /></div></li>
+ 			<li  class="layer" data-depth="1.00" id="wave-8"><div class="wava blue 8"><img src="images/blue.png" width="2500" height="305" /></div></li>
+ 			
+
+ 			
+ 			
+
+
+ 			
+
+ 		
+ 		</ul>	
+ 	</div>	
+   
+</div>
+
+ 
+  
+   
+ 
+
+	<!-- Scripts -->
+	<script src="deploy/parallax.min.js"></script>
+	<script>
+
+    
+
+
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+
+	</script>
+	
+</body>
+</html>
